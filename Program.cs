@@ -6,12 +6,12 @@ namespace CSHARP_Boucles_Exo1
     {
         static void Main(string[] args)
         {
-            int count = 1;
+            
 
-            while (count < 11)
+            for (int count = 1; count < 11; count++)
             {
                 Console.WriteLine($"Ceci n'est que le message de test numéro {count}. Veuillez ne pas y prêter attention");
-                count++;
+                
             }
         }
     }
